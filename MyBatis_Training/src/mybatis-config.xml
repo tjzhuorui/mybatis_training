@@ -14,8 +14,8 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 			</dataSource>
 		</environment>
 	</environments>
-	<!-- <mappers> -->
-	<!-- <mapper resource="com/robin/mapper/config/user-mapper.xml" /> -->
-	<!-- </mappers> -->
+	<mappers>
+		<mapper resource="com/robin/mapper/config/student-mapper.xml" />
+	</mappers>
 </configuration>
 

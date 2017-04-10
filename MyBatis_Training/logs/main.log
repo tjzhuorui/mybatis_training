@@ -10,4 +10,42 @@
  PooledDataSource forcefully closed/removed all connections.
  2017-04-10 17:38:00,268 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
  PooledDataSource forcefully closed/removed all connections.
+ 2017-04-10 18:51:01,317 DEBUG [org.apache.ibatis.logging.LogFactory] 
+ Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ 2017-04-10 18:51:01,451 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
+ PooledDataSource forcefully closed/removed all connections.
+ 2017-04-10 18:51:01,451 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
+ PooledDataSource forcefully closed/removed all connections.
+ 2017-04-10 18:51:01,452 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
+ PooledDataSource forcefully closed/removed all connections.
+ 2017-04-10 18:51:01,452 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
+ PooledDataSource forcefully closed/removed all connections.
+ 2017-04-10 18:52:04,497 DEBUG [org.apache.ibatis.logging.LogFactory] 
+ Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+ 2017-04-10 18:52:04,691 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
+ PooledDataSource forcefully closed/removed all connections.
+ 2017-04-10 18:52:04,692 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
+ PooledDataSource forcefully closed/removed all connections.
+ 2017-04-10 18:52:04,693 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
+ PooledDataSource forcefully closed/removed all connections.
+ 2017-04-10 18:52:04,694 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
+ PooledDataSource forcefully closed/removed all connections.
+ 2017-04-10 18:52:04,900 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+ Opening JDBC Connection
+ 2017-04-10 18:52:05,667 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
+ Created connection 909295153.
+ 2017-04-10 18:52:05,668 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+ Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3632be31]
+ 2017-04-10 18:52:05,672 DEBUG [com.robin.mapper.StudentMapper.getAllStudentsByList] 
+ ==>  Preparing: select STD_ID,NAME,BIRTHDAY,SEX from STUDENT 
+ 2017-04-10 18:52:05,725 DEBUG [com.robin.mapper.StudentMapper.getAllStudentsByList] 
+ ==> Parameters: 
+ 2017-04-10 18:52:05,767 DEBUG [com.robin.mapper.StudentMapper.getAllStudentsByList] 
+ <==      Total: 5
+ 2017-04-10 18:52:05,768 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+ Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3632be31]
+ 2017-04-10 18:52:05,770 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+ Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3632be31]
+ 2017-04-10 18:52:05,770 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] 
+ Returned connection 909295153 to pool.
  

@@ -1,10 +1,12 @@
 package com.robin.pojo;
 
-public class student {
+import com.robin.enums.Sex;
+
+public class Student {
 	private int std_id;
 	private String name;
 	private String birthday;
-	private Enum Sex;
+	private Sex Sex;
 
 	public int getStd_id() {
 		return std_id;
@@ -30,11 +32,18 @@ public class student {
 		this.birthday = birthday;
 	}
 
-	public Enum getSex() {
+	public Sex getSex() {
 		return Sex;
 	}
 
-	public void setSex(Enum sex) {
+	public void setSex(Sex sex) {
 		Sex = sex;
 	}
+
+	@Override
+	public String toString() {
+		return "Student [std_id=" + std_id + ", name=" + name + ", birthday="
+				+ birthday + ", Sex=" + Sex + "]";
+	}
+
 }
